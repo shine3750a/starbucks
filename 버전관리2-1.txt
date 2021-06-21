@@ -44,3 +44,20 @@ $git log (커밋확인)
 (push 시 계정 비인증시 인증하는 법)
 
 $ git credential-manager uninstall
+
+(git remote 연결 끊기)
+$git remote remove origin
+
+----------------------------
+지속적인 배포 
+netlify (회원가입)
+
+
+----------------------------
+
+브랜치 관리 
+
+$git branch (브랜치 확인)
+$git branch -a(원격저장소 브랜치 확인)
+
+$git branch signin (로그인페이지개발)

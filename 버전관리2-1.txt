@@ -1,0 +1,46 @@
+1. git 설치 
+
+windows > git-scm.com 다운로드 및 인스톨 
+
+2. git hub > sign up
+
+3.vs code > git --version (확인)
+
+4.$git init (실행)
+
+(등록)
+$git config --global core.autocrlf true(윈도우) input(맥) (개행문자설정)
+$git config --global user.name 'shine3750a'
+$git config --global user.email 'dydy_37@naver.com'
+
+$git config --global --list (확인)
+
+키보드 Q 빠져나오기. 
+
+5.(버젼관리 선언)
+
+$git status
+$git add .  
+$git status(확인)
+
+6. 커밋 버젼 생성
+
+$git commit -m 'start project'
+$git log (커밋확인)
+
+
+------------------------------------
+
+
+1. git hub >repositories > 저장소 생성
+주소 복사 
+
+2. $git remote add origin (깃허브 주소) 
+3. $git push origin master 
+
+
+-------------------------------
+
+(push 시 계정 비인증시 인증하는 법)
+
+$ git credential-manager uninstall
